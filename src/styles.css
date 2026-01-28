@@ -1,3 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@layer base {
+  body {
+    @apply text-gray-700 min-h-screen bg-gradient-to-br from-purple-100 via-purple-200 to-purple-300;
+  }
+}
